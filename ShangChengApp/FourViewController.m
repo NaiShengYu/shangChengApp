@@ -23,8 +23,6 @@
     } failure:^(NSError *error) {
         [SVProgressHUD showErrorWithStatus:@"网络错误"];
     }];
-    UIButton *but =[[UIButton alloc]initWithFrame:self.view.bounds];
-    [self.view addSubview:but];
     
 }
 - (void)dealloc{

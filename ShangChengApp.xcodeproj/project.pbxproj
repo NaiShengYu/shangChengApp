@@ -21,6 +21,7 @@
 		261DD08E1DEE799200EC73F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261DD08D1DEE799200EC73F7 /* LaunchScreen.xib */; };
 		261DD0941DEE7ECD00EC73F7 /* weixin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 261DD0931DEE7ECD00EC73F7 /* weixin.jpg */; };
 		261DD0971DEEA7E600EC73F7 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261DD0961DEEA7E600EC73F7 /* FourViewController.m */; };
+		26C730111DF6A99400D770E5 /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C730101DF6A99400D770E5 /* SixViewController.m */; };
 		AB8C056B1B98B869E6507CAA /* libPods-ShangChengApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22CB2B42A03611791FC71D9 /* libPods-ShangChengApp.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		261DD0931DEE7ECD00EC73F7 /* weixin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weixin.jpg; sourceTree = "<group>"; };
 		261DD0951DEEA7E600EC73F7 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		261DD0961DEEA7E600EC73F7 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		26C7300F1DF6A99400D770E5 /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		26C730101DF6A99400D770E5 /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
 		73BB08D5C69AB02D349EB3A5 /* Pods-ShangChengApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShangChengApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShangChengApp/Pods-ShangChengApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7727A7A135950F3430A30ACC /* Pods-ShangChengApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShangChengApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShangChengApp/Pods-ShangChengApp.release.xcconfig"; sourceTree = "<group>"; };
 		A22CB2B42A03611791FC71D9 /* libPods-ShangChengApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShangChengApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +148,8 @@
 				2603CD391DE7C73F00BAC460 /* FirstViewController.m */,
 				261DD0951DEEA7E600EC73F7 /* FourViewController.h */,
 				261DD0961DEEA7E600EC73F7 /* FourViewController.m */,
+				26C7300F1DF6A99400D770E5 /* SixViewController.h */,
+				26C730101DF6A99400D770E5 /* SixViewController.m */,
 				2603CD3B1DE7C74A00BAC460 /* SecondViewController.h */,
 				2603CD3C1DE7C74A00BAC460 /* SecondViewController.m */,
 				2603CD411DE7C77700BAC460 /* TherdViewController.h */,
@@ -389,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				260055971DEE5978008754E0 /* AFNetRequest.m in Sources */,
+				26C730111DF6A99400D770E5 /* SixViewController.m in Sources */,
 				2603CD3D1DE7C74A00BAC460 /* SecondViewController.m in Sources */,
 				261DD0971DEEA7E600EC73F7 /* FourViewController.m in Sources */,
 				2603CD0D1DE7C72600BAC460 /* ViewController.m in Sources */,
