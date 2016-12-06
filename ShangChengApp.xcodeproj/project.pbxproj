@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260055971DEE5978008754E0 /* AFNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 260055961DEE5978008754E0 /* AFNetRequest.m */; };
 		2603CD071DE7C72600BAC460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD061DE7C72600BAC460 /* main.m */; };
 		2603CD0A1DE7C72600BAC460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD091DE7C72600BAC460 /* AppDelegate.m */; };
 		2603CD0D1DE7C72600BAC460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD0C1DE7C72600BAC460 /* ViewController.m */; };
 		2603CD101DE7C72600BAC460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2603CD0E1DE7C72600BAC460 /* Main.storyboard */; };
 		2603CD121DE7C72600BAC460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2603CD111DE7C72600BAC460 /* Assets.xcassets */; };
-		2603CD151DE7C72600BAC460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2603CD131DE7C72600BAC460 /* LaunchScreen.storyboard */; };
 		2603CD201DE7C72700BAC460 /* ShangChengAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD1F1DE7C72700BAC460 /* ShangChengAppTests.m */; };
 		2603CD2B1DE7C72700BAC460 /* ShangChengAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD2A1DE7C72700BAC460 /* ShangChengAppUITests.m */; };
+		2603CD3A1DE7C73F00BAC460 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD391DE7C73F00BAC460 /* FirstViewController.m */; };
+		2603CD3D1DE7C74A00BAC460 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD3C1DE7C74A00BAC460 /* SecondViewController.m */; };
+		2603CD431DE7C77700BAC460 /* TherdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603CD421DE7C77700BAC460 /* TherdViewController.m */; };
+		261DD08E1DEE799200EC73F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261DD08D1DEE799200EC73F7 /* LaunchScreen.xib */; };
+		261DD0941DEE7ECD00EC73F7 /* weixin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 261DD0931DEE7ECD00EC73F7 /* weixin.jpg */; };
+		261DD0971DEEA7E600EC73F7 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261DD0961DEEA7E600EC73F7 /* FourViewController.m */; };
+		AB8C056B1B98B869E6507CAA /* libPods-ShangChengApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22CB2B42A03611791FC71D9 /* libPods-ShangChengApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260055951DEE5978008754E0 /* AFNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetRequest.h; sourceTree = "<group>"; };
+		260055961DEE5978008754E0 /* AFNetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetRequest.m; sourceTree = "<group>"; };
+		260055991DEE5A2E008754E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2603CD021DE7C72600BAC460 /* ShangChengApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShangChengApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2603CD061DE7C72600BAC460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2603CD081DE7C72600BAC460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +53,6 @@
 		2603CD0C1DE7C72600BAC460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2603CD0F1DE7C72600BAC460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2603CD111DE7C72600BAC460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2603CD141DE7C72600BAC460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2603CD161DE7C72600BAC460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2603CD1B1DE7C72600BAC460 /* ShangChengAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShangChengAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2603CD1F1DE7C72700BAC460 /* ShangChengAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShangChengAppTests.m; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		2603CD261DE7C72700BAC460 /* ShangChengAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShangChengAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2603CD2A1DE7C72700BAC460 /* ShangChengAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShangChengAppUITests.m; sourceTree = "<group>"; };
 		2603CD2C1DE7C72700BAC460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2603CD381DE7C73F00BAC460 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2603CD391DE7C73F00BAC460 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2603CD3B1DE7C74A00BAC460 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2603CD3C1DE7C74A00BAC460 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2603CD411DE7C77700BAC460 /* TherdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TherdViewController.h; sourceTree = "<group>"; };
+		2603CD421DE7C77700BAC460 /* TherdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TherdViewController.m; sourceTree = "<group>"; };
+		261DD08D1DEE799200EC73F7 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		261DD0931DEE7ECD00EC73F7 /* weixin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weixin.jpg; sourceTree = "<group>"; };
+		261DD0951DEEA7E600EC73F7 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		261DD0961DEEA7E600EC73F7 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		73BB08D5C69AB02D349EB3A5 /* Pods-ShangChengApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShangChengApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShangChengApp/Pods-ShangChengApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7727A7A135950F3430A30ACC /* Pods-ShangChengApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShangChengApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShangChengApp/Pods-ShangChengApp.release.xcconfig"; sourceTree = "<group>"; };
+		A22CB2B42A03611791FC71D9 /* libPods-ShangChengApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShangChengApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8C056B1B98B869E6507CAA /* libPods-ShangChengApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +101,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260055941DEE5956008754E0 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				260055951DEE5978008754E0 /* AFNetRequest.h */,
+				260055961DEE5978008754E0 /* AFNetRequest.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		2603CCF91DE7C72600BAC460 = {
 			isa = PBXGroup;
 			children = (
+				261DD08D1DEE799200EC73F7 /* LaunchScreen.xib */,
 				2603CD041DE7C72600BAC460 /* ShangChengApp */,
 				2603CD1E1DE7C72700BAC460 /* ShangChengAppTests */,
 				2603CD291DE7C72700BAC460 /* ShangChengAppUITests */,
 				2603CD031DE7C72600BAC460 /* Products */,
+				B15CA55366183F3FC652D356 /* Pods */,
+				58E88548022F945C0DC6858B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +136,22 @@
 		2603CD041DE7C72600BAC460 /* ShangChengApp */ = {
 			isa = PBXGroup;
 			children = (
+				260055941DEE5956008754E0 /* Public */,
 				2603CD081DE7C72600BAC460 /* AppDelegate.h */,
 				2603CD091DE7C72600BAC460 /* AppDelegate.m */,
 				2603CD0B1DE7C72600BAC460 /* ViewController.h */,
 				2603CD0C1DE7C72600BAC460 /* ViewController.m */,
+				2603CD381DE7C73F00BAC460 /* FirstViewController.h */,
+				2603CD391DE7C73F00BAC460 /* FirstViewController.m */,
+				261DD0951DEEA7E600EC73F7 /* FourViewController.h */,
+				261DD0961DEEA7E600EC73F7 /* FourViewController.m */,
+				2603CD3B1DE7C74A00BAC460 /* SecondViewController.h */,
+				2603CD3C1DE7C74A00BAC460 /* SecondViewController.m */,
+				2603CD411DE7C77700BAC460 /* TherdViewController.h */,
+				2603CD421DE7C77700BAC460 /* TherdViewController.m */,
 				2603CD0E1DE7C72600BAC460 /* Main.storyboard */,
+				261DD0931DEE7ECD00EC73F7 /* weixin.jpg */,
 				2603CD111DE7C72600BAC460 /* Assets.xcassets */,
-				2603CD131DE7C72600BAC460 /* LaunchScreen.storyboard */,
 				2603CD161DE7C72600BAC460 /* Info.plist */,
 				2603CD051DE7C72600BAC460 /* Supporting Files */,
 			);
@@ -118,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				2603CD061DE7C72600BAC460 /* main.m */,
+				260055991DEE5A2E008754E0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +185,23 @@
 			path = ShangChengAppUITests;
 			sourceTree = "<group>";
 		};
+		58E88548022F945C0DC6858B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A22CB2B42A03611791FC71D9 /* libPods-ShangChengApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B15CA55366183F3FC652D356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73BB08D5C69AB02D349EB3A5 /* Pods-ShangChengApp.debug.xcconfig */,
+				7727A7A135950F3430A30ACC /* Pods-ShangChengApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2603CD2F1DE7C72700BAC460 /* Build configuration list for PBXNativeTarget "ShangChengApp" */;
 			buildPhases = (
+				6D8FD95722701C88C3A0C7BF /* [CP] Check Pods Manifest.lock */,
 				2603CCFE1DE7C72600BAC460 /* Sources */,
 				2603CCFF1DE7C72600BAC460 /* Frameworks */,
 				2603CD001DE7C72600BAC460 /* Resources */,
+				F7D51BC39513AC3231E3F3F1 /* [CP] Embed Pods Frameworks */,
+				6014F2693017CC3516B57C44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +272,7 @@
 				TargetAttributes = {
 					2603CD011DE7C72600BAC460 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SE2L2E7GTL;
 						ProvisioningStyle = Automatic;
 					};
 					2603CD1A1DE7C72600BAC460 = {
@@ -246,7 +312,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2603CD151DE7C72600BAC460 /* LaunchScreen.storyboard in Resources */,
+				261DD08E1DEE799200EC73F7 /* LaunchScreen.xib in Resources */,
+				261DD0941DEE7ECD00EC73F7 /* weixin.jpg in Resources */,
 				2603CD121DE7C72600BAC460 /* Assets.xcassets in Resources */,
 				2603CD101DE7C72600BAC460 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +335,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6014F2693017CC3516B57C44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShangChengApp/Pods-ShangChengApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8FD95722701C88C3A0C7BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D51BC39513AC3231E3F3F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShangChengApp/Pods-ShangChengApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2603CCFE1DE7C72600BAC460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260055971DEE5978008754E0 /* AFNetRequest.m in Sources */,
+				2603CD3D1DE7C74A00BAC460 /* SecondViewController.m in Sources */,
+				261DD0971DEEA7E600EC73F7 /* FourViewController.m in Sources */,
 				2603CD0D1DE7C72600BAC460 /* ViewController.m in Sources */,
+				2603CD431DE7C77700BAC460 /* TherdViewController.m in Sources */,
 				2603CD0A1DE7C72600BAC460 /* AppDelegate.m in Sources */,
 				2603CD071DE7C72600BAC460 /* main.m in Sources */,
+				2603CD3A1DE7C73F00BAC460 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +437,6 @@
 				2603CD0F1DE7C72600BAC460 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2603CD131DE7C72600BAC460 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2603CD141DE7C72600BAC460 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,23 +532,33 @@
 		};
 		2603CD301DE7C72700BAC460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BB08D5C69AB02D349EB3A5 /* Pods-ShangChengApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SE2L2E7GTL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/yunaisheng/Desktop/gitShangChengApp/ShangChengApp/ShangChengApp/PrefixHeader.pch;
 				INFOPLIST_FILE = ShangChengApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunaisheng.ShangChengApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2603CD311DE7C72700BAC460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7727A7A135950F3430A30ACC /* Pods-ShangChengApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SE2L2E7GTL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/yunaisheng/Desktop/gitShangChengApp/ShangChengApp/ShangChengApp/PrefixHeader.pch;
 				INFOPLIST_FILE = ShangChengApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunaisheng.ShangChengApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +627,7 @@
 				2603CD311DE7C72700BAC460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2603CD321DE7C72700BAC460 /* Build configuration list for PBXNativeTarget "ShangChengAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +636,7 @@
 				2603CD341DE7C72700BAC460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2603CD351DE7C72700BAC460 /* Build configuration list for PBXNativeTarget "ShangChengAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +645,7 @@
 				2603CD371DE7C72700BAC460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
